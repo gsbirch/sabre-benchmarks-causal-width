@@ -1,3 +1,4 @@
+
 package edu.uky.cs.nil.sabre.bench;
 
 import java.io.File;
@@ -28,7 +29,7 @@ import edu.uky.cs.nil.sabre.util.Worker.Status;
 public class Main {
 	
 	/** The number of parallel processes to run tests on */
-	public static final int THREADS = 10;
+	public static final int THREADS = 8;
 
 	/**
 	 * The maximum number of nodes a {@link ProgressionSearch search} may {@link
@@ -64,34 +65,40 @@ public class Main {
 	 */
 	private static final List<Benchmark> getProblems() {
 		ArrayList<Benchmark> list = new ArrayList<>();
-		/*						Name				File				Goal	ATL		CTL		EL  */
-		list.add(new Benchmark("bribery", 			"bribery",			1,		5,		5,		2	));
-		list.add(new Benchmark("deerhunter_any",	"deerhunter",		1,		10,		6,		1	));
-		list.add(new Benchmark("deerhunter_both",	"deerhunter",		2,		10,		6,		1	));
-		list.add(new Benchmark("secretagent",		"secretagent",		1,		8,		8,		1	));
-		list.add(new Benchmark("aladdin_any",		"aladdin",			1,		13,		10,		2	));
-		list.add(new Benchmark("aladdin_both",		"aladdin",			2,		13,		10,		2	));
-		list.add(new Benchmark("hospital_any",		"hospital",			1,		11,		5,		3	));
-		list.add(new Benchmark("hospital_both",		"hospital",			2,		11,		5,		3	));
-		list.add(new Benchmark("basketball_any",	"basketball",		1,		7,		5,		2	));
-		list.add(new Benchmark("basketball_both",	"basketball",		2,		7,		5,		2	));
-		list.add(new Benchmark("western",			"western",			1,		8,		5,		1	));
-		list.add(new Benchmark("fantasy_any",		"fantasy",			1,		9,		3,		2	));
-		list.add(new Benchmark("fantasy_two",		"fantasy",			2,		9,		3,		2	));
-		list.add(new Benchmark("fantasy_all",		"fantasy",			3,		9,		3,		2	));
-		list.add(new Benchmark("space_any",			"space",			1,		9,		3,		1	));
-		list.add(new Benchmark("space_two",			"space",			2,		9,		3,		1	));
-		list.add(new Benchmark("space_three",		"space",			3,		9,		3,		1	));
-		list.add(new Benchmark("space_four",		"space",			4,		9,		3,		1	));
-		list.add(new Benchmark("space_all",			"space",			5,		9,		3,		1	));
-		list.add(new Benchmark("raiders",			"raiders",			1,		7,		4,		1	));
-		list.add(new Benchmark("treasure",			"treasure",			1,		4,		4,		3	));
-		list.add(new Benchmark("gramma_any",		"gramma",			1,		6,		5,		2	));
-		list.add(new Benchmark("gramma_win",		"gramma",			2,		6,		5,		2	));
-		list.add(new Benchmark("jailbreak_lose",	"jailbreak",		1,		7,		6,		1	));
-		list.add(new Benchmark("jailbreak_escape",	"jailbreak",		3,		7,		6,		1	));
-		list.add(new Benchmark("jailbreak_revenge",	"jailbreak",		6,		7,		6,		1	));
-		list.add(new Benchmark("lovers",			"lovers",			1,		5,		5,		2	));
+		/*						Name				File				Goal	ATL		CTL		EL   CAUSAL WIDTH*/
+		
+		// WIDTH 2
+		list.add(new Benchmark("space_any",			"space",			1,		9,		3,		1	,3));
+		list.add(new Benchmark("space_two",			"space",			2,		9,		3,		1	,3));
+		list.add(new Benchmark("space_three",		"space",			3,		9,		3,		1	,3));
+		list.add(new Benchmark("space_four",		"space",			4,		9,		3,		1	,3));
+		list.add(new Benchmark("space_all",			"space",			5,		9,		3,		1	,3));
+		list.add(new Benchmark("bribery", 			"bribery",			1,		5,		5,		2	,2));
+		list.add(new Benchmark("fantasy_any",		"fantasy",			1,		9,		3,		2	,3));
+		list.add(new Benchmark("fantasy_two",		"fantasy",			2,		9,		3,		2	,3));
+		list.add(new Benchmark("fantasy_all",		"fantasy",			3,		9,		3,		2	,3));
+		list.add(new Benchmark("raiders",			"raiders",			1,		7,		4,		1	,2));
+		list.add(new Benchmark("treasure",			"treasure",			1,		4,		4,		3	,2));
+		list.add(new Benchmark("gramma_any",		"gramma",			1,		6,		5,		2	,2));
+		list.add(new Benchmark("gramma_win",		"gramma",			2,		6,		5,		2	,2));
+		list.add(new Benchmark("secretagent",		"secretagent",		1,		8,		8,		1	,2));
+		
+		// Width 3
+		list.add(new Benchmark("basketball_any",	"basketball",		1,		7,		5,		2	,3));
+		list.add(new Benchmark("basketball_both",	"basketball",		2,		7,		5,		2	,3));
+		list.add(new Benchmark("western",			"western",			1,		8,		5,		1	,3));
+		list.add(new Benchmark("jailbreak_lose",	"jailbreak",		1,		7,		6,		1	,3));
+		list.add(new Benchmark("jailbreak_escape",	"jailbreak",		3,		7,		6,		1	,3));
+		list.add(new Benchmark("jailbreak_revenge",	"jailbreak",		6,		7,		6,		1	,3));
+		list.add(new Benchmark("lovers",			"lovers",			1,		5,		5,		2	,3));
+		list.add(new Benchmark("aladdin_any",		"aladdin",			1,		13,		10,		2	,3));
+		list.add(new Benchmark("aladdin_both",		"aladdin",			2,		13,		10,		2	,3));
+		
+		// Width 4
+		list.add(new Benchmark("deerhunter_any",	"deerhunter",		1,		10,		6,		1	,4));
+		list.add(new Benchmark("deerhunter_both",	"deerhunter",		2,		10,		6,		1	,4));
+		list.add(new Benchmark("hospital_any",		"hospital",			1,		11,		5,		3	,4));
+		list.add(new Benchmark("hospital_both",		"hospital",			2,		11,		5,		3	,4));
 		return list;
 	}
 	
@@ -108,19 +115,61 @@ public class Main {
 		ProgressionCostFactory hplus = new RepeatedRootHeuristic.Factory(GraphHeuristic.SUM);
 		ProgressionCostFactory hmax = new RepeatedRootHeuristic.Factory(GraphHeuristic.MAX);
 		ProgressionCostFactory rp = new RepeatedRootHeuristic.Factory(RelaxedPlanHeuristic.FACTORY);
-		/*					Name		Search Method				Cost	Heuristic	*/
-		list.add(getPlanner("BFS",		Method.BEST_FIRST,			t,		reach	));
-		list.add(getPlanner("EFS",		Method.EXPLANATION_FIRST,	t,		reach	));
-		list.add(getPlanner("GFS",		Method.GOAL_FIRST,			t,		reach	));
-		list.add(getPlanner("A* h+",	Method.BEST_FIRST,			t,		hplus	));
-		list.add(getPlanner("A* hmax",	Method.BEST_FIRST,			t,		hmax	));
-		list.add(getPlanner("A* rp",	Method.BEST_FIRST,			t,		rp		));
-		list.add(getPlanner("EFS h+",	Method.EXPLANATION_FIRST,	t,		hplus	));
-		list.add(getPlanner("EFS hmax",	Method.EXPLANATION_FIRST,	t,		hmax	));
-		list.add(getPlanner("EFS rp",	Method.EXPLANATION_FIRST,	t,		rp		));
-		list.add(getPlanner("GFS h+",	Method.GOAL_FIRST,			t,		hplus	));
-		list.add(getPlanner("GFS hmax",	Method.GOAL_FIRST,			t,		hmax	));
-		list.add(getPlanner("GFS rp",	Method.GOAL_FIRST,			t,		rp		));
+		
+		ProgressionCostFactory onlyWidth = new MaximumCausalWidthHeuristic.Factory(ProgressionCostFactory.ZERO);
+		ProgressionCostFactory onlyDupe = new DuplicateFrontierHeuristic.Factory(onlyWidth);
+		ProgressionCostFactory onlyPrune = new RepeatedRootHeuristic.Factory(onlyDupe);
+		
+		ProgressionCostFactory rpWidth = new MaximumCausalWidthHeuristic.Factory(RelaxedPlanHeuristic.FACTORY);
+		ProgressionCostFactory rpDupe = new DuplicateFrontierHeuristic.Factory(rpWidth);
+		ProgressionCostFactory rpPrune = new RepeatedRootHeuristic.Factory(rpDupe);
+		
+		ProgressionCostFactory hplusWidth = new MaximumCausalWidthHeuristic.Factory(GraphHeuristic.SUM);
+		ProgressionCostFactory hplusDupe = new DuplicateFrontierHeuristic.Factory(hplusWidth);
+		ProgressionCostFactory hplusPrune = new RepeatedRootHeuristic.Factory(hplusDupe);
+		
+		ProgressionCostFactory hmaxWidth = new MaximumCausalWidthHeuristic.Factory(GraphHeuristic.MAX);
+		ProgressionCostFactory hmaxDupe = new DuplicateFrontierHeuristic.Factory(hmaxWidth);
+		ProgressionCostFactory hmaxPrune = new RepeatedRootHeuristic.Factory(hmaxDupe);
+		
+		ProgressionCostFactory widthOnly = new MaximumCausalWidthHeuristic.Factory(ProgressionCostFactory.ZERO);
+		ProgressionCostFactory dupeOnly = new DuplicateFrontierHeuristic.Factory(reach);
+		ProgressionCostFactory cwCost = new CausalWidthCost.Factory();
+		
+		/*					Name					Search Method				Cost	Heuristic	*/
+		list.add(getPlanner("BFS",					Method.BEST_FIRST,			t,		ProgressionCostFactory.ZERO	));
+		list.add(getPlanner("BFS prune",			Method.BEST_FIRST, 			t, 		onlyPrune));
+
+		list.add(getPlanner("A* h+",				Method.BEST_FIRST,			t,		hplus	));
+		list.add(getPlanner("A* h_max",				Method.BEST_FIRST,			t,		hmax	));
+		list.add(getPlanner("A* rp",				Method.BEST_FIRST,			t,		rp		));
+		
+		list.add(getPlanner("A* h+ + pruning ",		Method.BEST_FIRST,			t,		hplusPrune	));
+		list.add(getPlanner("A* h_max + pruning ",	Method.BEST_FIRST,			t,		hmaxPrune	));
+		list.add(getPlanner("A* rp + pruning ",		Method.BEST_FIRST,			t,		rpPrune		));
+		
+		list.add(getPlanner("EFS",					Method.EXPLANATION_FIRST,	t,		reach	));
+		
+		list.add(getPlanner("EFS h+",				Method.EXPLANATION_FIRST,	t,		hplus	));
+		list.add(getPlanner("EFS h_max",			Method.EXPLANATION_FIRST,	t,		hmax	));
+		list.add(getPlanner("EFS rp",				Method.EXPLANATION_FIRST,	t,		rp		));
+		
+		list.add(getPlanner("EFS h+ + pruning ",	Method.EXPLANATION_FIRST,	t,		hplusPrune	));
+		list.add(getPlanner("EFS h_max + pruning ",	Method.EXPLANATION_FIRST,	t,		hmaxPrune	));
+		list.add(getPlanner("EFS rp + pruning ",	Method.EXPLANATION_FIRST,	t,		rpPrune		));
+		
+		list.add(getPlanner("GFS h+",				Method.GOAL_FIRST,			t,		hplus	));
+		list.add(getPlanner("GFS h_max",			Method.GOAL_FIRST,			t,		hmax	));
+		list.add(getPlanner("GFS rp",				Method.GOAL_FIRST,			t,		rp		));
+		
+		list.add(getPlanner("GFS h+ + pruning ",	Method.GOAL_FIRST,			t,		hplusPrune	));
+		list.add(getPlanner("GFS h_max + pruning ",	Method.GOAL_FIRST,			t,		hmaxPrune	));
+		list.add(getPlanner("GFS rp + pruning ",	Method.GOAL_FIRST,			t,		rpPrune		));
+
+		
+		// Causal Width Search Comparison
+//		list.add(getPlanner("BFS",						Method.BEST_FIRST,	t,			reach	));
+//		list.add(getPlanner("CW Cost with pruning",		Method.BEST_FIRST, 	cwCost, 	dupeOnly));		
 		return list;
 	}
 	
@@ -178,7 +227,7 @@ public class Main {
 	 * @throws Exception if an exception occurs while the tests are running
 	 */
 	private static Report run(Status status) throws Exception {
-		System.out.println("Sabre Benchmark tests started on " + ZonedDateTime.now());
+		//System.out.println("Sabre Benchmark tests started on " + ZonedDateTime.now());
 		Report report = new Report();
 		Printer printer = new DefaultPrinter();
 		// Read and compile problems.
@@ -206,7 +255,7 @@ public class Main {
 					ProgressionSearch search = problem.getSearch(planner, 1, status);
 					Result<CompiledAction> result = search.get(status);
 					if(result.getSuccess())
-						System.out.println("\nPlanner \"" + planner.name + "\" verified this solution to problem \"" + problem.name + "\":\n" + result.solution);
+						System.out.println("\nPlanner \"" + planner.name + "\" verified this solution to problem \"" + problem.name + "\":\n");
 					else
 						System.out.println("\nWarning: Planner \"" + planner.name + "\" was not able to verify the solution to problem \"" + problem.name + "\": " + result.message);
 					planner.setHeuristic(heuristic);

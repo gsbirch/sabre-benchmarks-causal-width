@@ -3,8 +3,12 @@ package edu.uky.cs.nil.sabre.bench;
 import java.util.List;
 
 import edu.uky.cs.nil.sabre.comp.CompiledAction;
+import edu.uky.cs.nil.sabre.prog.DuplicateFrontierHeuristic;
+import edu.uky.cs.nil.sabre.prog.MaximumCausalWidthHeuristic;
+import edu.uky.cs.nil.sabre.prog.ProgressionCostFactory;
 import edu.uky.cs.nil.sabre.prog.ProgressionPlanner;
 import edu.uky.cs.nil.sabre.prog.ProgressionSearch;
+import edu.uky.cs.nil.sabre.prog.RepeatedRootHeuristic;
 import edu.uky.cs.nil.sabre.search.Result;
 import edu.uky.cs.nil.sabre.util.Worker.Status;
 
@@ -83,6 +87,36 @@ public class TestSuite {
 		 * @return the search
 		 */
 		private ProgressionSearch getSearch(Status status) {
+			ProgressionCostFactory h = planner.getHeuristic();
+			
+			// Here, if we are using the maximum CW heuristic, we need to actually set the correct width
+			// based on the problem. There is a couple places it could be
+			
+			// First, if the very top heuristic the MCWH
+			if (h instanceof MaximumCausalWidthHeuristic.Factory) {
+				((MaximumCausalWidthHeuristic.Factory) h).maxWidth = problem.cw;
+			}
+			// Second, if we have Repeated Root, then MCWH
+			if (h instanceof RepeatedRootHeuristic.Factory) {
+				if (((RepeatedRootHeuristic.Factory) h).parent instanceof MaximumCausalWidthHeuristic.Factory) {
+					MaximumCausalWidthHeuristic.Factory parent = 
+						    (MaximumCausalWidthHeuristic.Factory) ((RepeatedRootHeuristic.Factory) h).parent;
+					parent.maxWidth = problem.cw;
+
+				}
+				
+				// Third, if we have Repeated Root, then Duplicate Frontier, then MCWH
+				if (((RepeatedRootHeuristic.Factory) h).parent instanceof DuplicateFrontierHeuristic.Factory) {
+					DuplicateFrontierHeuristic.Factory parent = 
+							(DuplicateFrontierHeuristic.Factory) ((RepeatedRootHeuristic.Factory) h).parent;
+					if (parent.parent instanceof MaximumCausalWidthHeuristic.Factory) {
+						MaximumCausalWidthHeuristic.Factory mParent = 
+							    (MaximumCausalWidthHeuristic.Factory) parent.parent;
+						mParent.maxWidth = problem.cw;
+					}
+				}
+			}
+			
 			return problem.getSearch(planner, run, status);
 		}
 		

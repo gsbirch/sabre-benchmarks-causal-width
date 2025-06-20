@@ -59,6 +59,11 @@ public class Benchmark {
 	public final int el;
 	
 	/**
+	 * The {@link edu.uky.cs.nil.sabre.prog.MaximumCausalWidthHeuristic#maxWidth causal width limit } to use when solving this problem with Causal Width Pruning
+	 */
+	public final int cw;
+	
+	/**
 	 * The name of the file in the 'problems' directory that defines this
 	 * problem
 	 */
@@ -86,6 +91,30 @@ public class Benchmark {
 		this.atl = atl;
 		this.ctl = ctl;
 		this.el = el;
+		this.cw = -1;
+	}
+	
+	/**
+	 * Constructs a new benchmark task.
+	 * 
+	 * @param name a unique name for the task that will be used in the {@link
+	 * Report report}
+	 * @param file the name of the file that defines the task in the {@code
+	 * problems} directory
+	 * @param goal the goal utility that must be achieved
+	 * @param atl the author temporal limit to use when searching
+	 * @param ctl the character temporal limit to use when searching
+	 * @param el the epistemic limit to use when searching
+	 * @param cw the causal width limit to be used when searching with causal width pruning
+	 */
+	public Benchmark(String name, String file, double goal, int atl, int ctl, int el, int cw) {
+		this.name = name;
+		this.file = file;
+		this.goal = goal;
+		this.atl = atl;
+		this.ctl = ctl;
+		this.el = el;
+		this.cw = cw;
 	}
 	
 	/**
