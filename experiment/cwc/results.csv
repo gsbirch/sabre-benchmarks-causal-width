@@ -1,0 +1,481 @@
+"Problem","Planner","Run","Success?","Plan Length","Nodes Visited","Nodes Generated","Time (ms)"
+"fantasy_any","BFS",1,true,2,4,91,2
+"fantasy_any","BFS",2,true,2,4,91,1
+"fantasy_any","BFS",3,true,2,4,91,2
+"fantasy_any","BFS",4,true,2,4,91,2
+"fantasy_any","BFS",5,true,2,4,91,2
+"fantasy_any","BFS",6,true,2,4,91,2
+"fantasy_any","BFS",7,true,2,4,91,2
+"fantasy_any","BFS",8,true,2,4,91,1
+"fantasy_any","BFS",9,true,2,4,91,2
+"fantasy_any","BFS",10,true,2,4,91,2
+"fantasy_any","CW Cost with pruning",1,true,2,4,90,4
+"fantasy_any","CW Cost with pruning",2,true,2,4,90,3
+"fantasy_any","CW Cost with pruning",3,true,2,4,90,4
+"fantasy_any","CW Cost with pruning",4,true,2,4,90,4
+"fantasy_any","CW Cost with pruning",5,true,2,4,90,4
+"fantasy_any","CW Cost with pruning",6,true,2,4,90,4
+"fantasy_any","CW Cost with pruning",7,true,2,4,90,4
+"fantasy_any","CW Cost with pruning",8,true,2,4,90,3
+"fantasy_any","CW Cost with pruning",9,true,2,4,90,3
+"fantasy_any","CW Cost with pruning",10,true,2,4,90,3
+"space_any","BFS",1,true,2,4,34,1
+"space_any","BFS",2,true,2,4,34,1
+"space_any","BFS",3,true,2,4,34,1
+"space_any","BFS",4,true,2,4,34,2
+"space_any","BFS",5,true,2,4,34,1
+"space_any","BFS",6,true,2,4,34,1
+"space_any","BFS",7,true,2,4,34,1
+"space_any","BFS",8,true,2,4,34,1
+"space_any","BFS",9,true,2,4,34,1
+"space_any","BFS",10,true,2,4,34,1
+"space_any","CW Cost with pruning",1,true,2,4,33,1
+"space_any","CW Cost with pruning",2,true,2,4,33,1
+"space_any","CW Cost with pruning",3,true,2,4,33,2
+"space_any","CW Cost with pruning",4,true,2,4,33,1
+"space_any","CW Cost with pruning",5,true,2,4,33,2
+"space_any","CW Cost with pruning",6,true,2,4,33,2
+"space_any","CW Cost with pruning",7,true,2,4,33,2
+"space_any","CW Cost with pruning",8,true,2,4,33,2
+"space_any","CW Cost with pruning",9,true,2,4,33,2
+"space_any","CW Cost with pruning",10,true,2,4,33,2
+"fantasy_two","BFS",1,true,5,7469,116113,2549
+"fantasy_two","BFS",2,true,5,7469,116113,2592
+"fantasy_two","BFS",3,true,5,7469,116113,2576
+"fantasy_two","BFS",4,true,5,7469,116113,2392
+"fantasy_two","BFS",5,true,5,7469,116141,2702
+"fantasy_two","BFS",6,true,5,7469,116113,2423
+"fantasy_two","BFS",7,true,5,7469,116113,2477
+"fantasy_two","BFS",8,true,5,7469,116113,2600
+"fantasy_two","BFS",9,true,5,7469,116113,3211
+"fantasy_two","BFS",10,true,5,7469,116113,3178
+"fantasy_two","CW Cost with pruning",1,true,5,3930,69010,30955
+"fantasy_two","CW Cost with pruning",2,true,5,3930,69010,30825
+"fantasy_two","CW Cost with pruning",3,true,5,3930,69010,31025
+"fantasy_two","CW Cost with pruning",4,true,5,3930,69010,30729
+"fantasy_two","CW Cost with pruning",5,true,5,3923,68799,31555
+"fantasy_two","CW Cost with pruning",6,true,5,3935,69098,31380
+"fantasy_two","CW Cost with pruning",7,true,5,3930,69010,30706
+"fantasy_two","CW Cost with pruning",8,true,5,3930,69010,31085
+"fantasy_two","CW Cost with pruning",9,true,5,3935,69098,17243
+"fantasy_two","CW Cost with pruning",10,true,5,3935,69098,16986
+"space_three","BFS",1,true,3,18,214,7
+"space_three","BFS",2,true,3,18,214,6
+"space_three","BFS",3,true,3,18,214,6
+"space_three","BFS",4,true,3,17,213,8
+"space_three","BFS",5,true,3,17,213,6
+"space_three","BFS",6,true,3,17,213,7
+"space_three","BFS",7,true,3,17,213,6
+"space_three","BFS",8,true,3,17,213,6
+"space_three","BFS",9,true,3,17,213,6
+"space_three","BFS",10,true,3,17,213,7
+"space_three","CW Cost with pruning",1,true,3,602,5733,646
+"space_three","CW Cost with pruning",2,true,3,602,5733,667
+"space_three","CW Cost with pruning",3,true,3,602,5733,668
+"space_three","CW Cost with pruning",4,true,3,602,5733,656
+"space_three","CW Cost with pruning",5,true,3,602,5733,711
+"space_three","CW Cost with pruning",6,true,3,602,5733,211
+"space_three","CW Cost with pruning",7,true,3,602,5733,164
+"space_three","CW Cost with pruning",8,true,3,602,5733,202
+"space_three","CW Cost with pruning",9,true,3,602,5733,669
+"space_three","CW Cost with pruning",10,true,3,602,5733,692
+"space_four","BFS",1,true,5,131,1756,35
+"space_four","BFS",2,true,5,124,1677,36
+"space_four","BFS",3,true,5,131,1758,43
+"space_four","BFS",4,true,5,120,1606,31
+"space_four","BFS",5,true,5,113,1527,29
+"space_four","BFS",6,true,5,113,1527,42
+"space_four","BFS",7,true,5,120,1608,36
+"space_four","BFS",8,true,5,113,1527,34
+"space_four","BFS",9,true,5,113,1527,36
+"space_four","BFS",10,true,5,120,1606,32
+"space_four","CW Cost with pruning",1,true,5,162,1741,170
+"space_four","CW Cost with pruning",2,true,5,162,1741,162
+"space_four","CW Cost with pruning",3,true,5,162,1741,144
+"space_four","CW Cost with pruning",4,true,5,162,1741,162
+"space_four","CW Cost with pruning",5,true,5,162,1741,144
+"space_four","CW Cost with pruning",6,true,5,162,1741,147
+"space_four","CW Cost with pruning",7,true,5,162,1741,136
+"space_four","CW Cost with pruning",8,true,5,162,1741,144
+"space_four","CW Cost with pruning",9,true,5,162,1741,168
+"space_four","CW Cost with pruning",10,true,5,162,1741,121
+"bribery","BFS",1,true,2,9,161,1
+"bribery","BFS",2,true,2,10,177,0
+"bribery","BFS",3,true,2,9,161,0
+"bribery","BFS",4,true,2,8,145,3
+"bribery","BFS",5,true,2,9,161,0
+"bribery","BFS",6,true,2,8,145,1
+"bribery","BFS",7,true,2,10,177,1
+"bribery","BFS",8,true,2,10,177,1
+"bribery","BFS",9,true,2,10,177,1
+"bribery","BFS",10,true,2,9,161,0
+"bribery","CW Cost with pruning",1,true,2,9,155,1
+"bribery","CW Cost with pruning",2,true,2,10,171,1
+"bribery","CW Cost with pruning",3,true,2,9,155,1
+"bribery","CW Cost with pruning",4,true,2,8,139,1
+"bribery","CW Cost with pruning",5,true,2,9,155,1
+"bribery","CW Cost with pruning",6,true,2,8,139,1
+"bribery","CW Cost with pruning",7,true,2,10,171,2
+"bribery","CW Cost with pruning",8,true,2,10,171,1
+"bribery","CW Cost with pruning",9,true,2,10,171,1
+"bribery","CW Cost with pruning",10,true,2,9,155,1
+"fantasy_all","BFS",1,false,,1000000,15014708,946760
+"fantasy_all","BFS",2,false,,1000000,15014708,945321
+"fantasy_all","BFS",3,false,,1000000,15014708,942047
+"fantasy_all","BFS",4,false,,1000000,15014708,949800
+"fantasy_all","BFS",5,false,,1000000,15014999,941834
+"fantasy_all","BFS",6,false,,1000000,15014636,1141407
+"fantasy_all","BFS",7,false,,1000000,15014708,950475
+"fantasy_all","BFS",8,false,,1000000,15014708,946523
+"fantasy_all","BFS",9,false,,1000000,15014636,895419
+"fantasy_all","BFS",10,false,,1000000,15014636,889357
+"fantasy_all","CW Cost with pruning",1,true,9,5121,89161,7431
+"fantasy_all","CW Cost with pruning",2,true,9,5121,89161,7554
+"fantasy_all","CW Cost with pruning",3,true,9,5121,89161,7743
+"fantasy_all","CW Cost with pruning",4,true,9,5121,89161,8031
+"fantasy_all","CW Cost with pruning",5,true,9,5118,88985,7407
+"fantasy_all","CW Cost with pruning",6,true,9,5121,89161,7469
+"fantasy_all","CW Cost with pruning",7,true,9,5121,89161,7613
+"fantasy_all","CW Cost with pruning",8,true,9,5121,89161,7728
+"fantasy_all","CW Cost with pruning",9,true,9,5121,89161,8832
+"fantasy_all","CW Cost with pruning",10,true,9,5121,89161,8771
+"space_two","BFS",1,true,3,18,214,2
+"space_two","BFS",2,true,3,18,214,2
+"space_two","BFS",3,true,3,18,214,4
+"space_two","BFS",4,true,3,17,213,2
+"space_two","BFS",5,true,3,17,213,4
+"space_two","BFS",6,true,3,17,213,2
+"space_two","BFS",7,true,3,17,213,3
+"space_two","BFS",8,true,3,17,213,2
+"space_two","BFS",9,true,3,17,213,3
+"space_two","BFS",10,true,3,17,213,3
+"space_two","CW Cost with pruning",1,true,3,602,5733,391
+"space_two","CW Cost with pruning",2,true,3,602,5733,428
+"space_two","CW Cost with pruning",3,true,3,602,5733,434
+"space_two","CW Cost with pruning",4,true,3,602,5733,446
+"space_two","CW Cost with pruning",5,true,3,602,5733,451
+"space_two","CW Cost with pruning",6,true,3,602,5733,-31
+"space_two","CW Cost with pruning",7,true,3,602,5733,499
+"space_two","CW Cost with pruning",8,true,3,602,5733,421
+"space_two","CW Cost with pruning",9,true,3,602,5733,458
+"space_two","CW Cost with pruning",10,true,3,602,5733,435
+"space_all","BFS",1,true,6,890,13262,204
+"space_all","BFS",2,true,6,890,13262,216
+"space_all","BFS",3,true,6,858,12764,215
+"space_all","BFS",4,true,6,857,12764,156
+"space_all","BFS",5,true,6,857,12764,194
+"space_all","BFS",6,true,6,857,12764,216
+"space_all","BFS",7,true,6,857,12764,207
+"space_all","BFS",8,true,6,889,13262,197
+"space_all","BFS",9,true,6,857,12764,181
+"space_all","BFS",10,true,6,857,12764,189
+"space_all","CW Cost with pruning",1,true,6,4449,35760,1980
+"space_all","CW Cost with pruning",2,true,6,4449,35760,2126
+"space_all","CW Cost with pruning",3,true,6,4440,35686,1989
+"space_all","CW Cost with pruning",4,true,6,4424,35632,2047
+"space_all","CW Cost with pruning",5,true,6,4424,35632,1689
+"space_all","CW Cost with pruning",6,true,6,4424,35632,1691
+"space_all","CW Cost with pruning",7,true,6,4424,35632,1660
+"space_all","CW Cost with pruning",8,true,6,4433,35706,1646
+"space_all","CW Cost with pruning",9,true,6,4424,35632,1659
+"space_all","CW Cost with pruning",10,true,6,4424,35632,1557
+"raiders","BFS",1,true,6,716,5367,76
+"raiders","BFS",2,true,6,996,8688,129
+"raiders","BFS",3,true,6,692,5107,70
+"raiders","BFS",4,true,6,692,5107,76
+"raiders","BFS",5,true,6,722,5432,75
+"raiders","BFS",6,true,6,828,6665,108
+"raiders","BFS",7,true,6,716,5367,96
+"raiders","BFS",8,true,6,990,8599,133
+"raiders","BFS",9,true,6,722,5432,83
+"raiders","BFS",10,true,6,828,6665,115
+"raiders","CW Cost with pruning",1,true,6,1126,8200,599
+"raiders","CW Cost with pruning",2,true,6,1043,7773,528
+"raiders","CW Cost with pruning",3,true,6,930,6906,462
+"raiders","CW Cost with pruning",4,true,6,928,6876,467
+"raiders","CW Cost with pruning",5,true,6,1199,8691,650
+"raiders","CW Cost with pruning",6,true,6,929,6904,489
+"raiders","CW Cost with pruning",7,true,6,1124,8170,603
+"raiders","CW Cost with pruning",8,true,6,927,6864,516
+"raiders","CW Cost with pruning",9,true,6,1195,8621,736
+"raiders","CW Cost with pruning",10,true,6,927,6864,514
+"treasure","BFS",1,true,4,50,137,0
+"treasure","BFS",2,true,4,50,137,0
+"treasure","BFS",3,true,4,50,137,1
+"treasure","BFS",4,true,4,50,137,1
+"treasure","BFS",5,true,4,50,137,1
+"treasure","BFS",6,true,4,50,137,1
+"treasure","BFS",7,true,4,50,137,0
+"treasure","BFS",8,true,4,50,137,0
+"treasure","BFS",9,true,4,50,137,1
+"treasure","BFS",10,true,4,50,137,1
+"treasure","CW Cost with pruning",1,true,4,25,88,1
+"treasure","CW Cost with pruning",2,true,4,25,88,1
+"treasure","CW Cost with pruning",3,true,4,25,88,1
+"treasure","CW Cost with pruning",4,true,4,25,88,1
+"treasure","CW Cost with pruning",5,true,4,25,88,1
+"treasure","CW Cost with pruning",6,true,4,25,88,1
+"treasure","CW Cost with pruning",7,true,4,25,88,1
+"treasure","CW Cost with pruning",8,true,4,25,88,1
+"treasure","CW Cost with pruning",9,true,4,25,88,1
+"treasure","CW Cost with pruning",10,true,4,25,88,1
+"gramma_any","BFS",1,true,3,2168,32046,1100
+"gramma_any","BFS",2,true,3,2167,32038,2138
+"gramma_any","BFS",3,true,3,2166,32029,1151
+"gramma_any","BFS",4,true,3,2166,32029,1152
+"gramma_any","BFS",5,true,3,2167,32038,637
+"gramma_any","BFS",6,true,3,2168,32046,1104
+"gramma_any","BFS",7,true,3,2167,32037,816
+"gramma_any","BFS",8,true,3,2167,32037,1282
+"gramma_any","BFS",9,true,3,2167,32038,2224
+"gramma_any","BFS",10,true,3,2167,32038,1187
+"gramma_any","CW Cost with pruning",1,true,5,26205,127484,22945
+"gramma_any","CW Cost with pruning",2,true,5,26164,127080,23107
+"gramma_any","CW Cost with pruning",3,true,5,26205,127769,23358
+"gramma_any","CW Cost with pruning",4,true,5,26276,128918,23648
+"gramma_any","CW Cost with pruning",5,true,5,26275,128904,23255
+"gramma_any","CW Cost with pruning",6,true,5,26226,127720,22871
+"gramma_any","CW Cost with pruning",7,true,5,26276,128918,20919
+"gramma_any","CW Cost with pruning",8,true,5,26205,127769,20456
+"gramma_any","CW Cost with pruning",9,true,5,26189,127552,20299
+"gramma_any","CW Cost with pruning",10,true,5,26190,127535,20095
+"gramma_win","BFS",1,true,5,11331,179251,7802
+"gramma_win","BFS",2,true,5,11222,178031,7397
+"gramma_win","BFS",3,true,5,11541,182819,6953
+"gramma_win","BFS",4,true,5,11522,182298,7636
+"gramma_win","BFS",5,true,5,11521,182277,7509
+"gramma_win","BFS",6,true,5,11397,180578,7379
+"gramma_win","BFS",7,true,5,11395,180557,-184067
+"gramma_win","BFS",8,true,5,11541,182819,7924
+"gramma_win","BFS",9,true,5,11221,178031,7564
+"gramma_win","BFS",10,true,5,11221,178031,7347
+"gramma_win","CW Cost with pruning",1,true,5,244545,1947132,358274
+"gramma_win","CW Cost with pruning",2,true,5,251246,2002703,371923
+"gramma_win","CW Cost with pruning",3,true,5,259483,2071310,389573
+"gramma_win","CW Cost with pruning",4,true,5,252266,2017909,374422
+"gramma_win","CW Cost with pruning",5,true,5,251563,2009339,375145
+"gramma_win","CW Cost with pruning",6,true,5,252130,2010619,375660
+"gramma_win","CW Cost with pruning",7,true,5,252424,2014975,376325
+"gramma_win","CW Cost with pruning",8,true,5,259739,2072027,387153
+"gramma_win","CW Cost with pruning",9,true,5,251557,2004270,372327
+"gramma_win","CW Cost with pruning",10,true,5,250980,1998335,371630
+"secretagent","BFS",1,true,8,659,711,8
+"secretagent","BFS",2,true,8,665,745,8
+"secretagent","BFS",3,true,8,665,745,7
+"secretagent","BFS",4,true,8,659,711,4
+"secretagent","BFS",5,true,8,665,745,7
+"secretagent","BFS",6,true,8,659,711,5
+"secretagent","BFS",7,true,8,659,711,6
+"secretagent","BFS",8,true,8,665,745,5
+"secretagent","BFS",9,true,8,665,745,5
+"secretagent","BFS",10,true,8,665,745,5
+"secretagent","CW Cost with pruning",1,true,8,142,238,9
+"secretagent","CW Cost with pruning",2,true,8,146,246,11
+"secretagent","CW Cost with pruning",3,true,8,146,246,11
+"secretagent","CW Cost with pruning",4,true,8,142,238,10
+"secretagent","CW Cost with pruning",5,true,8,146,246,12
+"secretagent","CW Cost with pruning",6,true,8,142,238,10
+"secretagent","CW Cost with pruning",7,true,8,142,238,7
+"secretagent","CW Cost with pruning",8,true,8,146,246,11
+"secretagent","CW Cost with pruning",9,true,8,146,246,9
+"secretagent","CW Cost with pruning",10,true,8,146,246,12
+"jailbreak_lose","BFS",1,true,4,636,12516,105
+"jailbreak_lose","BFS",2,true,4,644,12678,69
+"jailbreak_lose","BFS",3,true,4,636,12516,87
+"jailbreak_lose","BFS",4,true,4,644,12678,94
+"jailbreak_lose","BFS",5,true,4,644,12678,95
+"jailbreak_lose","BFS",6,true,4,644,12678,106
+"jailbreak_lose","BFS",7,true,4,636,12516,85
+"jailbreak_lose","BFS",8,true,4,636,12516,98
+"jailbreak_lose","BFS",9,true,4,644,12678,97
+"jailbreak_lose","BFS",10,true,4,644,12678,86
+"jailbreak_lose","CW Cost with pruning",1,true,4,3724,44873,1495
+"jailbreak_lose","CW Cost with pruning",2,true,4,3849,46313,2038
+"jailbreak_lose","CW Cost with pruning",3,true,4,3723,44865,2149
+"jailbreak_lose","CW Cost with pruning",4,true,4,3850,46321,1603
+"jailbreak_lose","CW Cost with pruning",5,true,4,3849,46313,2154
+"jailbreak_lose","CW Cost with pruning",6,true,4,3850,46321,2167
+"jailbreak_lose","CW Cost with pruning",7,true,4,3724,44873,2215
+"jailbreak_lose","CW Cost with pruning",8,true,4,3724,44873,2119
+"jailbreak_lose","CW Cost with pruning",9,true,4,3849,46313,1663
+"jailbreak_lose","CW Cost with pruning",10,true,4,3849,46313,1490
+"jailbreak_escape","BFS",1,true,6,905896,12747107,111685
+"jailbreak_escape","BFS",2,true,6,905715,12743052,111816
+"jailbreak_escape","BFS",3,true,6,940004,13421090,119875
+"jailbreak_escape","BFS",4,true,6,905728,12743318,112525
+"jailbreak_escape","BFS",5,true,6,905881,12746827,112985
+"jailbreak_escape","BFS",6,true,6,924419,13105607,114607
+"jailbreak_escape","BFS",7,true,6,905894,12747093,112792
+"jailbreak_escape","BFS",8,true,6,924421,13105629,118292
+"jailbreak_escape","BFS",9,true,6,924406,13105319,120087
+"jailbreak_escape","BFS",10,true,6,940003,13421056,123638
+"jailbreak_escape","CW Cost with pruning",1,true,6,14235,165431,6751
+"jailbreak_escape","CW Cost with pruning",2,true,6,14214,165260,9370
+"jailbreak_escape","CW Cost with pruning",3,true,6,14376,167404,8801
+"jailbreak_escape","CW Cost with pruning",4,true,6,14183,164694,6703
+"jailbreak_escape","CW Cost with pruning",5,true,6,14214,165260,7258
+"jailbreak_escape","CW Cost with pruning",6,true,6,14254,165575,7455
+"jailbreak_escape","CW Cost with pruning",7,true,6,14218,165300,6926
+"jailbreak_escape","CW Cost with pruning",8,true,6,14191,164824,6909
+"jailbreak_escape","CW Cost with pruning",9,true,6,14185,164745,7499
+"jailbreak_escape","CW Cost with pruning",10,true,6,14425,168084,7389
+"basketball_any","BFS",1,true,4,1053,30308,491
+"basketball_any","BFS",2,true,4,1033,30002,506
+"basketball_any","BFS",3,true,4,868,23999,306
+"basketball_any","BFS",4,true,4,2193,65881,643
+"basketball_any","BFS",5,true,4,1013,29680,476
+"basketball_any","BFS",6,true,4,1003,29511,472
+"basketball_any","BFS",7,true,4,2193,65881,1170
+"basketball_any","BFS",8,true,4,1033,29970,534
+"basketball_any","BFS",9,true,4,2203,66018,630
+"basketball_any","BFS",10,true,4,898,24490,382
+"basketball_any","CW Cost with pruning",1,false,,1000000,15250285,3091044
+"basketball_any","CW Cost with pruning",2,false,,1000000,14864886,3030811
+"basketball_any","CW Cost with pruning",3,false,,1000000,12128805,2425370
+"basketball_any","CW Cost with pruning",4,false,,1000000,15371217,3002009
+"basketball_any","CW Cost with pruning",5,false,,1000000,14871875,3032807
+"basketball_any","CW Cost with pruning",6,false,,1000000,14864820,3030441
+"basketball_any","CW Cost with pruning",7,false,,1000000,15380247,2993650
+"basketball_any","CW Cost with pruning",8,false,,1000000,15253383,3074789
+"basketball_any","CW Cost with pruning",9,false,,1000000,15371956,2591567
+"basketball_any","CW Cost with pruning",10,false,,1000000,12126064,2013477
+"basketball_both","BFS",1,false,,1000000,23315780,3241030
+"basketball_both","BFS",2,false,,1000000,23328638,3264825
+"basketball_both","BFS",3,false,,1000000,23217922,3154403
+"basketball_both","BFS",4,false,,1000000,23416075,3074632
+"basketball_both","BFS",5,false,,1000000,23179633,3174130
+"basketball_both","BFS",6,false,,1000000,23345900,3245976
+"basketball_both","BFS",7,false,,1000000,23415693,3047836
+"basketball_both","BFS",8,false,,1000000,23314259,3214634
+"basketball_both","BFS",9,false,,1000000,23407304,2961092
+"basketball_both","BFS",10,false,,1000000,23205635,3008628
+"basketball_both","CW Cost with pruning",1,false,,1000000,11626165,1907010
+"basketball_both","CW Cost with pruning",2,false,,1000000,11614481,1908526
+"basketball_both","CW Cost with pruning",3,false,,1000000,11627190,1919355
+"basketball_both","CW Cost with pruning",4,false,,1000000,11857965,1904903
+"basketball_both","CW Cost with pruning",5,false,,1000000,11600475,2053208
+"basketball_both","CW Cost with pruning",6,false,,1000000,11614535,2075131
+"basketball_both","CW Cost with pruning",7,false,,1000000,11853463,2068283
+"basketball_both","CW Cost with pruning",8,false,,1000000,11624526,2077610
+"basketball_both","CW Cost with pruning",9,false,,1000000,11859863,2064931
+"basketball_both","CW Cost with pruning",10,false,,1000000,11656007,2095027
+"western","BFS",1,false,,1000000,38027933,6782940
+"western","BFS",2,false,,1000000,38028948,6789869
+"western","BFS",3,false,,1000000,38029560,6690122
+"western","BFS",4,false,,1000000,37999997,6818150
+"western","BFS",5,false,,1000000,38045518,6837541
+"western","BFS",6,false,,1000000,37999190,6804374
+"western","BFS",7,false,,1000000,37996112,6843813
+"western","BFS",8,false,,1000000,38026757,6816353
+"western","BFS",9,false,,1000000,37996476,5935670
+"western","BFS",10,false,,1000000,39351298,5068577
+"western","CW Cost with pruning",1,false,,1000000,18118483,6890707
+"western","CW Cost with pruning",2,false,,1000000,18107883,6995728
+"western","CW Cost with pruning",3,false,,1000000,18133479,6998850
+"western","CW Cost with pruning",4,false,,1000000,18124246,6991588
+"western","CW Cost with pruning",5,false,,1000000,18123637,7011312
+"western","CW Cost with pruning",6,false,,1000000,18111575,6992467
+"western","CW Cost with pruning",7,false,,1000000,18129314,7411309
+"western","CW Cost with pruning",8,false,,1000000,18122454,7424542
+"western","CW Cost with pruning",9,false,,1000000,18106888,7387386
+"western","CW Cost with pruning",10,false,,1000000,18105275,7392255
+"jailbreak_revenge","BFS",1,false,,1000000,14615930,134434
+"jailbreak_revenge","BFS",2,false,,1000000,14598110,135216
+"jailbreak_revenge","BFS",3,false,,1000000,14598080,131963
+"jailbreak_revenge","BFS",4,false,,1000000,14598890,130175
+"jailbreak_revenge","BFS",5,false,,1000000,14615922,130886
+"jailbreak_revenge","BFS",6,false,,1000000,14599302,131491
+"jailbreak_revenge","BFS",7,false,,1000000,14598861,130162
+"jailbreak_revenge","BFS",8,false,,1000000,14598890,132041
+"jailbreak_revenge","BFS",9,false,,1000000,14598890,133938
+"jailbreak_revenge","BFS",10,false,,1000000,14598113,136254
+"jailbreak_revenge","CW Cost with pruning",1,false,,1000000,10580097,1250114
+"jailbreak_revenge","CW Cost with pruning",2,false,,1000000,10580663,1252994
+"jailbreak_revenge","CW Cost with pruning",3,false,,1000000,10580568,1448317
+"jailbreak_revenge","CW Cost with pruning",4,false,,1000000,10580802,1254214
+"jailbreak_revenge","CW Cost with pruning",5,false,,1000000,10580214,1262237
+"jailbreak_revenge","CW Cost with pruning",6,false,,1000000,10580893,1259684
+"jailbreak_revenge","CW Cost with pruning",7,false,,1000000,10580594,1064612
+"jailbreak_revenge","CW Cost with pruning",8,false,,1000000,10581009,1260742
+"jailbreak_revenge","CW Cost with pruning",9,false,,1000000,10581034,1132786
+"jailbreak_revenge","CW Cost with pruning",10,false,,1000000,10580465,1128540
+"lovers","BFS",1,true,5,4817,94703,1893
+"lovers","BFS",2,true,5,5839,119408,2153
+"lovers","BFS",3,true,5,4984,99433,2134
+"lovers","BFS",4,true,5,6023,124317,2372
+"lovers","BFS",5,true,5,4816,94690,2001
+"lovers","BFS",6,true,5,6179,128881,2418
+"lovers","BFS",7,true,5,4984,99426,2095
+"lovers","BFS",8,true,5,13542,324279,6752
+"lovers","BFS",9,true,5,4661,90217,1900
+"lovers","BFS",10,true,5,9403,206967,4078
+"lovers","CW Cost with pruning",1,false,,1000000,13641310,1823879
+"lovers","CW Cost with pruning",2,false,,1000000,13609646,1823339
+"lovers","CW Cost with pruning",3,false,,1000000,13640113,1770940
+"lovers","CW Cost with pruning",4,false,,1000000,13704533,1775971
+"lovers","CW Cost with pruning",5,false,,1000000,13612482,1761235
+"lovers","CW Cost with pruning",6,false,,1000000,13635447,1763408
+"lovers","CW Cost with pruning",7,false,,1000000,13637230,1759495
+"lovers","CW Cost with pruning",8,false,,1000000,12580029,1669751
+"lovers","CW Cost with pruning",9,false,,1000000,13758045,1810868
+"lovers","CW Cost with pruning",10,false,,1000000,12862111,1700337
+"deerhunter_any","BFS",1,true,6,10100,81729,940
+"deerhunter_any","BFS",2,true,6,10108,81848,907
+"deerhunter_any","BFS",3,true,6,10100,81729,944
+"deerhunter_any","BFS",4,true,6,10100,81729,976
+"deerhunter_any","BFS",5,true,6,10108,81848,-191483
+"deerhunter_any","BFS",6,true,6,10108,81848,937
+"deerhunter_any","BFS",7,true,6,10108,81848,939
+"deerhunter_any","BFS",8,true,6,10100,81729,911
+"deerhunter_any","BFS",9,true,6,10100,81729,409
+"deerhunter_any","BFS",10,true,6,10108,81848,1024
+"deerhunter_any","CW Cost with pruning",1,true,6,749448,2141186,470476
+"deerhunter_any","CW Cost with pruning",2,true,7,749456,2141214,490377
+"deerhunter_any","CW Cost with pruning",3,true,6,749448,2141186,488561
+"deerhunter_any","CW Cost with pruning",4,true,6,749448,2141186,485465
+"deerhunter_any","CW Cost with pruning",5,true,7,749456,2141214,488398
+"deerhunter_any","CW Cost with pruning",6,true,7,749456,2141214,493839
+"deerhunter_any","CW Cost with pruning",7,true,7,749456,2141214,497460
+"deerhunter_any","CW Cost with pruning",8,true,6,749448,2141186,497440
+"deerhunter_any","CW Cost with pruning",9,true,6,749448,2141186,487036
+"deerhunter_any","CW Cost with pruning",10,true,7,749456,2141214,470204
+"hospital_any","BFS",1,true,4,31106,755032,12152
+"hospital_any","BFS",2,true,4,31158,756042,11358
+"hospital_any","BFS",3,true,4,31639,761128,11929
+"hospital_any","BFS",4,true,4,31150,755796,11139
+"hospital_any","BFS",5,true,4,31499,758769,10789
+"hospital_any","BFS",6,true,4,31142,755576,11983
+"hospital_any","BFS",7,true,4,31526,759291,11742
+"hospital_any","BFS",8,true,4,31496,758937,11607
+"hospital_any","BFS",9,true,4,31131,755520,11751
+"hospital_any","BFS",10,true,4,31152,755866,11187
+"hospital_any","CW Cost with pruning",1,false,,1000000,12089553,1858533
+"hospital_any","CW Cost with pruning",2,false,,1000000,12110241,1854154
+"hospital_any","CW Cost with pruning",3,false,,1000000,12095093,1856223
+"hospital_any","CW Cost with pruning",4,false,,1000000,12114449,1856180
+"hospital_any","CW Cost with pruning",5,false,,1000000,12099941,1855658
+"hospital_any","CW Cost with pruning",6,false,,1000000,12099541,1851553
+"hospital_any","CW Cost with pruning",7,false,,1000000,12110045,1835313
+"hospital_any","CW Cost with pruning",8,false,,1000000,12114965,1809008
+"hospital_any","CW Cost with pruning",9,false,,1000000,12099361,1690806
+"hospital_any","CW Cost with pruning",10,false,,1000000,12114729,1697833
+"deerhunter_both","BFS",1,false,,1000000,8051711,1372816
+"deerhunter_both","BFS",2,false,,1000000,8051712,1377862
+"deerhunter_both","BFS",3,false,,1000000,8051711,1376131
+"deerhunter_both","BFS",4,false,,1000000,8051711,1379049
+"deerhunter_both","BFS",5,false,,1000000,8051712,1378417
+"deerhunter_both","BFS",6,false,,1000000,8051712,1370424
+"deerhunter_both","BFS",7,false,,1000000,8051712,1257106
+"deerhunter_both","BFS",8,false,,1000000,8051711,1256238
+"deerhunter_both","BFS",9,false,,1000000,8051711,1253099
+"deerhunter_both","BFS",10,false,,1000000,8051712,1232607
+"deerhunter_both","CW Cost with pruning",1,false,,1000000,2901419,513613
+"deerhunter_both","CW Cost with pruning",2,false,,1000000,2900916,516286
+"deerhunter_both","CW Cost with pruning",3,false,,1000000,2901419,519266
+"deerhunter_both","CW Cost with pruning",4,false,,1000000,2901419,517830
+"deerhunter_both","CW Cost with pruning",5,false,,1000000,2900916,513667
+"deerhunter_both","CW Cost with pruning",6,false,,1000000,2900916,516575
+"deerhunter_both","CW Cost with pruning",7,false,,1000000,2900916,507468
+"deerhunter_both","CW Cost with pruning",8,false,,1000000,2901419,508405
+"deerhunter_both","CW Cost with pruning",9,false,,1000000,2901419,410253
+"deerhunter_both","CW Cost with pruning",10,false,,1000000,2900916,371923

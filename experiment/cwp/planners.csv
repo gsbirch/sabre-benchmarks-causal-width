@@ -1,0 +1,21 @@
+"Name","Search Method","Cost","Heuristic","Problems Solved","Unique Problems Solved","Total Nodes Visited","Total Nodes Generated","Total Time (ms)"
+"EFS h_max + pruning ","explanation-first","temporal","max graph with width pruning with duplicate frontier pruning with no repeated roots",230,23,13952007,291510098,95724690
+"A* h_max + pruning ","best-first","temporal","max graph with width pruning with duplicate frontier pruning with no repeated roots",230,23,14054626,468937664,322199373
+"A* rp + pruning ","best-first","temporal","relaxed plan with width pruning with duplicate frontier pruning with no repeated roots",230,23,16319921,324984615,169010352
+"EFS rp + pruning ","explanation-first","temporal","relaxed plan with width pruning with duplicate frontier pruning with no repeated roots",228,23,22216161,132866294,30833063
+"BFS prune","best-first","temporal","reachability with no repeated roots with width pruning with duplicate frontier pruning with no repeated roots",228,23,34387617,675752698,271420730
+"EFS h+ + pruning ","explanation-first","temporal","sum graph with width pruning with duplicate frontier pruning with no repeated roots",220,22,26468685,152851805,32362209
+"A* h+ + pruning ","best-first","temporal","sum graph with width pruning with duplicate frontier pruning with no repeated roots",220,22,31841195,703179039,251257525
+"EFS h_max","explanation-first","temporal","max graph with no repeated roots",220,22,32622088,551973799,109739718
+"GFS h_max + pruning ","goal-first","temporal","max graph with width pruning with duplicate frontier pruning with no repeated roots",220,22,34818742,721008513,291623903
+"GFS rp + pruning ","goal-first","temporal","relaxed plan with width pruning with duplicate frontier pruning with no repeated roots",210,21,42466198,202415626,68944728
+"A* rp","best-first","temporal","relaxed plan with no repeated roots",210,21,45700487,589792511,115104602
+"GFS h+ + pruning ","goal-first","temporal","sum graph with width pruning with duplicate frontier pruning with no repeated roots",210,21,47919731,235694891,74516572
+"A* h_max","best-first","temporal","max graph with no repeated roots",200,20,42910957,750493697,166065168
+"BFS","best-first","temporal","0",190,19,60484771,1005576369,94008657
+"EFS rp","explanation-first","temporal","relaxed plan with no repeated roots",187,20,69223571,312897870,49311508
+"A* h+","best-first","temporal","sum graph with no repeated roots",180,18,64259960,933831279,170392011
+"EFS h+","explanation-first","temporal","sum graph with no repeated roots",173,18,74100897,339006009,60983315
+"GFS h_max","goal-first","temporal","max graph with no repeated roots",170,17,75171576,942137118,121863364
+"GFS rp","goal-first","temporal","relaxed plan with no repeated roots",170,17,75592581,257334910,28022286
+"GFS h+","goal-first","temporal","sum graph with no repeated roots",158,16,88456303,272371964,32546902
