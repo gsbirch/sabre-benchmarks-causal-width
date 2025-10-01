@@ -30,14 +30,22 @@ mostly necessary actions) are more likely to lead to a solution.
 
 ## Usage
 
-To clone this project (including Sabre as a submodule), compile the code, and
-run it:
+To clone this project (including Sabre as a submodule), first compile the code:
 
 ```
-git clone --recurse-submodules [INSERT URL HERE]
-cd sabre-benchmarks
+git clone -b causal-width --recurse-submodules https://github.com/gsbirch/sabre-benchmarks-causal-width.git
+cd sabre-benchmarks-causal-width
 javac -cp sabre/build/jar/sabre.jar -sourcepath src -d bin src/edu/uky/cs/nil/sabre/bench/Main.java
-java -Xms60g -Xmx60g -cp bin;sabre/build/jar/sabre.jar edu.uky.cs.nil.sabre.bench.Main
+```
+
+Then run it. For windows:
+```
+java -Xms4g -Xmx4g -cp bin;sabre/build/jar/sabre.jar edu.uky.cs.nil.sabre.bench.Main
+```
+
+or for Mac/Linux:
+```
+java -Xms4g -Xmx4g -cp bin:sabre/build/jar/sabre.jar edu.uky.cs.nil.sabre.bench.Main
 ```
 
 The `-Xms60g` argument sets the Java Virtual Machine's minimum heap space to 60
