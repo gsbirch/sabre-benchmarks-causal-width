@@ -68,15 +68,7 @@ public class Main {
 		/*						Name				File				Goal	ATL		CTL		EL   CAUSAL WIDTH*/
 		
 		// WIDTH 2
-		list.add(new Benchmark("space_any",			"space",			1,		9,		3,		1	,3));
-		list.add(new Benchmark("space_two",			"space",			2,		9,		3,		1	,3));
-		list.add(new Benchmark("space_three",		"space",			3,		9,		3,		1	,3));
-		list.add(new Benchmark("space_four",		"space",			4,		9,		3,		1	,3));
-		list.add(new Benchmark("space_all",			"space",			5,		9,		3,		1	,3));
 		list.add(new Benchmark("bribery", 			"bribery",			1,		5,		5,		2	,2));
-		list.add(new Benchmark("fantasy_any",		"fantasy",			1,		9,		3,		2	,3));
-		list.add(new Benchmark("fantasy_two",		"fantasy",			2,		9,		3,		2	,3));
-		list.add(new Benchmark("fantasy_all",		"fantasy",			3,		9,		3,		2	,3));
 		list.add(new Benchmark("raiders",			"raiders",			1,		7,		4,		1	,2));
 		list.add(new Benchmark("treasure",			"treasure",			1,		4,		4,		3	,2));
 		list.add(new Benchmark("gramma_any",		"gramma",			1,		6,		5,		2	,2));
@@ -84,6 +76,14 @@ public class Main {
 		list.add(new Benchmark("secretagent",		"secretagent",		1,		8,		8,		1	,2));
 		
 		// Width 3
+		list.add(new Benchmark("space_any",			"space",			1,		9,		3,		1	,3));
+		list.add(new Benchmark("space_two",			"space",			2,		9,		3,		1	,3));
+		list.add(new Benchmark("space_three",		"space",			3,		9,		3,		1	,3));
+		list.add(new Benchmark("space_four",		"space",			4,		9,		3,		1	,3));
+		list.add(new Benchmark("space_all",			"space",			5,		9,		3,		1	,3));
+		list.add(new Benchmark("fantasy_any",		"fantasy",			1,		9,		3,		2	,3));
+		list.add(new Benchmark("fantasy_two",		"fantasy",			2,		9,		3,		2	,3));
+		list.add(new Benchmark("fantasy_all",		"fantasy",			3,		9,		3,		2	,3));
 		list.add(new Benchmark("basketball_any",	"basketball",		1,		7,		5,		2	,3));
 		list.add(new Benchmark("basketball_both",	"basketball",		2,		7,		5,		2	,3));
 		list.add(new Benchmark("western",			"western",			1,		8,		5,		1	,3));
